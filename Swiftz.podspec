@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = "2.1"  
   s.source   = { :git => "https://github.com/typelift/Swiftz.git", :tag => "#{s.version}", :submodules => true }
   s.source_files = "Sources/Swiftz/*.swift", "Hack/Swiftx/*.swift", "Hack/Operadics/Operators.swift"
-  s.swift_versions = ['5.0']
+  s.swift_versions = ['4.2', '5.0']
 end
